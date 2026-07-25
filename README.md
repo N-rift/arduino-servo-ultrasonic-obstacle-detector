@@ -58,19 +58,19 @@ The following image shows the complete wiring of the project.
 
 A live demonstration of the simulation is included in this repository.
 
-> **Demo:** `live_demo.gif`
+![Demo](live_demo.gif)
 
  
   ## Code
 
 The Arduino source code is available in:
 
-- `sonic_servo_led.ino`
+- [sonic_servo_led.ino](sonic_servo_led.ino)
 
 
 ## Simulation Note
 
-Tinkercad's ultrasonic sensor can be difficult to position precisely at **10 cm**. If you are testing the simulation and the servo does not activate easily, you can temporarily change the following line in the code:
+![Tinkercad's](https://www.tinkercad.com/things/4xznMyYEDIO/editel?returnTo=%2Fdashboard&sharecode=0Mni4wEoGJnLc2aiYqS1nH0Jm5SkXbiWRfHmiZuYokY) ultrasonic sensor can be difficult to position precisely at **10 cm**. If you are testing the simulation and the servo does not activate easily, you can temporarily change the following line in the code:
 
 ```cpp
 if (distance <= 10)
