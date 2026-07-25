@@ -54,6 +54,13 @@ The following image shows the complete wiring of the project.
   - The green LED turns ON.
   - The red LED turns OFF.
  
+  ## Live Demo
+
+A live demonstration of the simulation is included in this repository.
+
+> **Demo:** `live_demo.gif`
+
+ 
   ## Code
 
 The Arduino source code is available in:
@@ -77,20 +84,14 @@ if (distance <= 100)
 
 This makes it easier to test the project in the simulator. After testing, change it back to **10 cm** to match the task requirements.
 
-## Live Demo
-
-A live demonstration of the simulation is included in this repository.
-
-> **Demo:** `demo.gif`
-
 ## Repository Contents
 
 ```
 .
 ├── README.md
-├── task2.ino
+├── sonic_servo_led.ino
 ├── circuit.png
-├── demo.mp4
+├── live_demo.gif
 └── LICENSE
 ```
 
